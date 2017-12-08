@@ -4,7 +4,7 @@
   padding-left: 15px;
   margin: 0px;
   height: 30px;
-   font-size: 15px;
+  font-size: 15px;
 }
 
 .navbar{
@@ -27,6 +27,40 @@
   color:#607D8B; 
 }
 
+.logo {
+  width: 50%;
+  height: 50px;
+}
+
+#outer{
+    width:100%;
+
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+}
+#inner {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#inner > img{
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
 /*******************************RESPONSIVE SIDEMENU *********************************/
 body {
     font-family: "Lato", sans-serif;
