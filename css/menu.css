@@ -1,12 +1,5 @@
 /*******************************NAVBAR*********************************/
 
-.navbar-brand{
-  padding-left: 15px;
-  margin: 0px;
-  height: 30px;
-  font-size: 15px;
-}
-
 .navbar{
   margin-bottom: 5px;
 }
@@ -61,10 +54,10 @@
   max-width: 100% ;
   height: auto ;
 }
+
 /*******************************RESPONSIVE SIDEMENU *********************************/
 body {
     font-family: "Lato", sans-serif;
-
 }
 .nav-side-menu {
   overflow: auto;
@@ -75,9 +68,7 @@ body {
   background-color: #9DA879;
   position: relative;
   top: 0px;
-  /*width: 300px;*/
   width: auto;
-  /*width: 266px;*/
   height: 100%;
   color: #e1ffff;
 }
@@ -155,8 +146,6 @@ body {
 }
 .nav-side-menu li {
   padding-left: 0px;
-  /*border-left: 3px solid #2e353d;
-  border-bottom: 1px solid #23282e;*/
   border-left: 5px solid #cae820;
   border-bottom: 1px solid #cae820;
 
