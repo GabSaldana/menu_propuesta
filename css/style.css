@@ -1,3 +1,4 @@
+/*******************************NAVBAR*********************************/
 
 .navbar-brand{
   padding-left: 15px;
@@ -7,11 +8,25 @@
 }
 
 .navbar{
-  margin-bottom: 5px;
+  margin-bottom: 2px;
 }
 
+.navbar-inverse {
+    background-color: #f5f5f5;
+    border-color: #f5f5f5;
+}
 
-@import "//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css";
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand{
+  color: #AEBF4D;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  color:#607D8B;
+}
+.navbar-inverse .navbar-brand:hover{
+  color:#607D8B; 
+}
+
 /*******************************RESPONSIVE SIDEMENU *********************************/
 body {
     font-family: "Lato", sans-serif;
@@ -22,10 +37,13 @@ body {
   font-family: verdana;
   font-size: 12px;
   font-weight: 200;
-  background-color: #2e353d;
+  /*background-color: #2e353d;*/
+  background-color: #9DA879;
   position: relative;
   top: 0px;
-  width: 300px;
+  /*width: 300px;*/
+  width: auto;
+  /*width: 266px;*/
   height: 100%;
   color: #e1ffff;
 }
@@ -103,8 +121,11 @@ body {
 }
 .nav-side-menu li {
   padding-left: 0px;
-  border-left: 3px solid #2e353d;
-  border-bottom: 1px solid #23282e;
+  /*border-left: 3px solid #2e353d;
+  border-bottom: 1px solid #23282e;*/
+  border-left: 5px solid #cae820;
+  border-bottom: 1px solid #cae820;
+
 }
 .nav-side-menu li a {
   text-decoration: none;
@@ -138,8 +159,8 @@ body {
     top: 5px;
     z-index: 10 !important;
     padding: 3px;
-    background-color: #ffffff;
-    color: #000;
+    background-color: #9da879;
+    color: #fff;
     width: 40px;
     text-align: center;
   }
@@ -154,10 +175,10 @@ body {
   .nav-side-menu .menu-list .menu-content {
     display: block;
   }
-  #main {
+   #main {
+    width:calc(100% - 0px);
     
-    
-
+    float: right;
   }
 }
 
@@ -167,4 +188,4 @@ body {
 }
 
 
-/*******************************NAVBAR*********************************/
+
