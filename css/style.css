@@ -1,10 +1,17 @@
 
+.navbar-brand{
+  padding-left: 15px;
+  margin: 0px;
+  height: 30px;
+   font-size: 15px;
+}
 
-.banner{
-  background-color: green;
+.navbar{
+  margin-bottom: 5px;
 }
 
 
+@import "//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css";
 /*******************************RESPONSIVE SIDEMENU *********************************/
 body {
     font-family: "Lato", sans-serif;
@@ -32,9 +39,13 @@ body {
 
 .profile{
   font-size: 100%;
-  background-color: #23282e;
-  line-height: 50px;
+  margin: 10px;
 }
+.profile p{
+  margin-top: 15px;
+  color: white;
+}
+
 .nav-side-menu .toggle-btn {
   display: none;
 }
@@ -97,7 +108,7 @@ body {
 }
 .nav-side-menu li a {
   text-decoration: none;
-  color: #e1ffff;
+  color: white;
 }
 .nav-side-menu li a i {
   padding-left: 10px;
@@ -124,7 +135,7 @@ body {
     cursor: pointer;
     position: absolute;
     right: 10px;
-    top: 10px;
+    top: 5px;
     z-index: 10 !important;
     padding: 3px;
     background-color: #ffffff;
@@ -144,8 +155,9 @@ body {
     display: block;
   }
   #main {
-    width:calc(100% - 300px);
-    float: right;
+    
+    
+
   }
 }
 
